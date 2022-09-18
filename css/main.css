@@ -360,11 +360,71 @@ body{
     letter-spacing: -0.5px;
     color: #FFFFFF;
 }
-
-
-
-
-
+.site__section-hotel a img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.site__section-hotel1 h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #071828;
+    margin-top: 15px;
+}
+.site__section-hotel1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: #071828;
+}
+.site__section-hotel1 a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: #004583;
+    text-decoration: none;
+}
+.site__section-hotel1{
+    margin-bottom: 20px;
+}
+.site__section-hotel1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: #071828;
+    margin-top: 15px;
+}
+.site__section-hotel1 a i{
+    padding: 3px 10px;
+    border: 1px solid #004583;
+    font-size: 25px;
+    border-radius: 100%;
+}
+.site__section-home a img{
+    width: 100%;
+    object-fit: cover;
+    height: 220px;
+}
+.site__section-wideo img{
+    max-width: 900px;
+    width:100%;
+    object-fit:cover;
+}
 
 
 
