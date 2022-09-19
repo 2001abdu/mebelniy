@@ -420,19 +420,131 @@ body{
     object-fit: cover;
     height: 220px;
 }
-.site__section-wideo img{
-    max-width: 900px;
-    width:100%;
-    object-fit:cover;
+
+/* site__section-wideo-text */
+
+.site__section-wideo{
+    background: url(../images/Rectangle\ 12.svg) center center /cover;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    height: 450px;
+}
+.site__section-wideo-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin: 100px auto;
+}
+.site__section-wideo-text h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 127.47%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.site__section-wideo-text a{
+    text-decoration: none;
+    width: 75px;
+    height: 75px;
+    border:2px solid #FFFFFF;
+    padding: 10px;
+    background:#fff;
+    margin-bottom: 10px;
+    align-items:center;
+    border-radius:100%;
+}
+.site__section-wideo-text a i{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    text-align: center;
+    border: 1px solid #BB2822;
+    color: #BB2822;
+    padding: 18px;
+    font-size: 18px;
+    border-radius:100%;
+}
+.site__button{
+    border: 1px solid #FFFFFF;
+    border-radius: 22px;
+    margin-top: 50px;
+    padding: 5px 20px;
+    background:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 127.47%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
+/* site__section-informatsiya */
+.text__info{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+}
+.site__section-dostavka a img{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: -15px;
+}
+.site__section-dostavka1{
+    background: #FAFAFA;
+    padding: 10px;
+    width: 100%;
+}
+.site__section-dostavka1 h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #071828;
+    margin-top: 5px;
+}
+.site__section-dostavka1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: #071828;
+}
+.site__section-dostavka1 a{
+    border: 2px solid #BB2822;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    width: 40px;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 100%;
+}
+.site__section-dostavka1 a i{
+    font-size: 20px;
+    color: #BB2822;
+}
 
 
 
